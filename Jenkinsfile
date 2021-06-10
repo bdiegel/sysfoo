@@ -65,7 +65,7 @@ pipeline {
       agent any
       steps {
          echo 'Deploying to Dev Environment with Docker Compose'
-         sh 'docker-compose up -d'
+         sh 'docker compose up -d'
       }
     }
 
